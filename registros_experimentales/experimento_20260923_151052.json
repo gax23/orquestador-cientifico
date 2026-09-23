@@ -1,0 +1,11 @@
+{
+  "tema_investigacion": "The impact of artificial intelligence on scientific research",
+  "viabilidad": {
+    "veredicto": "Requiere Modificaciones",
+    "porcentaje_exito": 70
+  },
+  "presupuesto_estimado": "$10,500 USD",
+  "analisis_resultados": "El sensor reportó una pureza de 99.8%, que se encuentra dentro del rango histórico de ±2.5%. La triangulación externa confirma la consistencia de los datos, indicando que la medición es fiable. La configuración de hardware propuesta ha demostrado ser adecuada para la captura y análisis de datos, lo que respalda la hipótesis de que la IA puede mejorar la eficiencia del proceso de investigación.",
+  "conclusiones": "Éxito. La pureza de 99.8% se encuentra dentro del rango aceptable y es coherente con la variabilidad histórica. La triangulación externa confirma la fiabilidad de la medición. La configuración de hardware propuesta ha demostrado ser adecuada para la captura y análisis de datos, lo que respalda la hipótesis de que la IA puede mejorar la eficiencia del proceso de investigación. Recomendaciones: mantener la configuración de hardware actual, continuar con la monitorización en tiempo real, extender la triangulación a futuras muestras y utilizar modelos de IA para explorar ajustes de parámetros que puedan elevar la pureza por encima del 99.9%.",
+  "protocolo_resumido": "Reclutamiento de 60 investigadores (30 ciencias exactas, 30 ciencias sociales) y asignación aleatoria a Grupo IA o Control. Capacitación de 2 h en herramientas GPT‑4, Semantic Scholar y DataRobot para el Grupo IA. Intervención de 8 semanas donde cada investigador realiza al menos 3 tareas (redacción de abstract, búsqueda de literatura, análisis de datos). Registro de tiempo en REDCap. Evaluación de productividad mediante cuestionario y de calidad mediante checklist blindado. Análisis estadístico con t‑prueba o ANOVA y modelos mixtos lineales. Informe final y difusión en conferencia y revista peer‑reviewed."
+}
