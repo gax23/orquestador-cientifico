@@ -1,18 +1,25 @@
 from agents.research_agent import ResearchAgent
+from agents.lab_agent import LabAgent
 
 def main():
-    print("🚀 Iniciando Orquestador Científico Multiagente...")
+    print("🚀 Iniciando Orquestador Científico Multiagente...\n")
     
-    # Instanciamos al agente investigador
     researcher = ResearchAgent()
+    lab_tech = LabAgent()
     
-    # Probamos el método heredado de la clase base
-    tarea_inicial = researcher.execute_task("Evaluar viabilidad de síntesis de un nuevo polímero")
-    print(f"Resultado Tarea: {tarea_inicial}")
+    # 1. Definimos el objetivo global del experimento
+    objetivo_investigacion = "Nuevas aleaciones de titanio para prótesis"
     
-    # Probamos el método específico del investigador
-    literatura = researcher.search_literature("Polímeros biodegradables de alta resistencia")
-    print(f"Resultado Búsqueda: {literatura}")
+    # 2. El investigador analiza el objetivo y genera un protocolo
+    protocolo_descubierto = researcher.search_literature(objetivo_investigacion)
+    print(f"-> [SALIDA INVESTIGADOR]: {protocolo_descubierto}\n")
+    
+    # 3. ORQUESTACIÓN: Pasamos el resultado exacto del agente 1 al agente 2
+    print("⚙️ [ORQUESTADOR] Transfiriendo protocolo al área de laboratorio...\n")
+    resultado_lab = lab_tech.run_experiment(protocolo_descubierto)
+    
+    # 4. Resultado final
+    print(f"-> [SALIDA LABORATORIO]: {resultado_lab}")
 
 if __name__ == "__main__":
     main()
