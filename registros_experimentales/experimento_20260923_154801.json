@@ -1,0 +1,11 @@
+{
+  "tema_investigacion": "The impact of artificial intelligence on scientific research",
+  "viabilidad": {
+    "veredicto": "Aprobado",
+    "porcentaje_exito": 88
+  },
+  "presupuesto_estimado": "$3,200 USD",
+  "analisis_resultados": "Éxito parcial: La estructura del estudio (muestra, periodos, análisis) es sólida, pero la tasa de respuesta y la calidad de los datos están comprometidas por la carga cognitiva, la frecuencia de recordatorios y la exportación de datos en CSV. Recomendación: Implementar los ajustes propuestos (incrementar muestra, acortar periodo, aumentar recordatorios, reducir ítems, usar Qualtrics, exportar en formatos nativos, aplicar regresión multivariada con validación cruzada, asegurar almacenamiento cifrado y revisar consentimiento). Con estos cambios, la pureza y la integridad de los datos alcanzarán niveles que permitan conclusiones científicas robustas sobre el impacto de la IA en la investigación científica.",
+  "conclusiones": "El protocolo es técnicamente viable y tiene alta probabilidad de éxito. Se recomienda implementar los ajustes propuestos para mejorar la tasa de respuesta y la calidad de los datos, garantizando así la robustez de los resultados.",
+  "protocolo_resumido": "Estudio cuantitativo y cualitativo con 200 investigadores de diversas disciplinas. Se diseñó un cuestionario de 30 ítems Likert y 5 preguntas abiertas, se obtuvo aprobación IRB, se reclutó a los participantes vía correo, se administró la encuesta en Qualtrics durante 4 semanas con recordatorios semanales, se gestionaron los datos exportando a CSV, se realizó análisis descriptivo, correlacional y ANOVA en R/SPSS, y se interpretaron los resultados para redactar un manuscrito."
+}
